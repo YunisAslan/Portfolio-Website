@@ -23,7 +23,7 @@ const Footer = () => {
           hover:bg-gray-400 w-[2.5rem] h-[2.5rem] flex items-center justify-center rounded-lg dark:text-white dark:hover:bg-gray-700'><AiOutlineFacebook /></a>
           <a
             rel='noreferrer'
-            href="www.linkedin.com/in/yunis-aslanov"
+            href="https://www.linkedin.com/in/yunis-aslanov"
             target="_blank"
             className='hover:scale-105 hover:-translate-y-2 transition-all duration-700
           hover:bg-gray-400 w-[2.5rem] h-[2.5rem] flex items-center justify-center rounded-lg dark:text-white dark:hover:bg-gray-700'><AiFillLinkedin />
