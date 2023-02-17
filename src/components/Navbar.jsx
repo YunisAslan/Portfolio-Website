@@ -53,14 +53,14 @@ const Navbar = () => {
                         className=' rounded-full sm:w-[4rem] sm:h-[4rem] mm:w-12 mm:h-12' />
                 </div>
 
-                <div className="site-logo w-[8rem] text-white crazy-image">
+                <div className="site-logo sm:w-[8rem] text-white mm:w-[6rem]">
                     <img
                         src={theme === 'dark' ? SiteLogoWhite : SiteLogoBlack}
                         alt=""
                     />
                 </div>
 
-                <button onClick={handleTheme} className='mm:ml-16 sm:ml-24 mm:text-2xl sm:text-3xl absolute text-black'>
+                <button onClick={handleTheme} className='mm:ml-14 sm:ml-24 mm:text-xl sm:text-3xl absolute text-black'>
                     {theme === "dark" ? <BsMoonStars className='text-white' /> : <BsSun />}
                 </button>
 

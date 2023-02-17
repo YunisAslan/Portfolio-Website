@@ -21,8 +21,8 @@ const About = () => {
                 data-aos-easing="ease-out"
                 data-aos-duration="700"
             >
-                <img src={ownImg} alt="" className='w-[450px]
-                rounded-[2.5rem]' />
+                <img src={ownImg} alt="" className='sm:w-[450px] mm:w-[300px]
+                rounded-[2rem]' />
             </div>
 
             <div className="about-container lg:mx-[20rem] mm:mx-[1rem] dark:text-gray-100"
